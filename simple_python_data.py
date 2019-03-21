@@ -16,8 +16,8 @@ def calculate_total_plus_tip_per_person(total_bill, tip_percent, number_of_peopl
 
 def fahrenheit_to_celcius(degrees):
     ## Todo: update `None` to contain the formula for `degrees_in_celcius`
-    ## use the formula (F − 32) × 5/9 = C
-    degrees_in_celcius = (degrees − 32) * (5/9)
+    ## use the formula (F - 32) × 5/9 = C
+    degrees_in_celcius = (degrees - 32) * (5/9)
     return degrees_in_celcius
 
 def calculate_the_remainder(num1, num2):
