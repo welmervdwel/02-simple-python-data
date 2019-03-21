@@ -36,4 +36,4 @@ def test_calculate_the_remainder():
     assert simple_python_data.calculate_the_remainder(5, 2) == 1, "Your calculate_the_remainder func should return correct value"
     assert simple_python_data.calculate_the_remainder(13, 4) == 1, "Your calculate_the_remainder func should return correct value"
     assert simple_python_data.calculate_the_remainder(100, 50) == 0, "Your calculate_the_remainder func should return correct value"
-    assert simple_python_data.calculate_the_remainder(5, 9) == 4, "Your calculate_the_remainder func should return correct value"
+    assert simple_python_data.calculate_the_remainder(9, 5) == 4, "Your calculate_the_remainder func should return correct value"
