@@ -13,7 +13,7 @@ def test_calculate_area_of_square():
     Check that running your code should calculate a square's area"
     """
     assert simple_python_data.calculate_area_of_square(0) == 0, "Your calculate_area_of_square func should be able to handle zero values"
-    assert simple_python_data.calculate_rectangle_area(5) == 25, "Your calculate_area_of_square func should be able to handle positive values"
+    assert simple_python_data.calculate_area_of_square(5) == 25, "Your calculate_area_of_square func should be able to handle positive values"
     
 def test_calculate_total_plus_tip_per_person():
     """
@@ -21,12 +21,6 @@ def test_calculate_total_plus_tip_per_person():
     """
     assert simple_python_data.calculate_total_plus_tip_per_person(100, 20, 4) == 30, "Your calculate_total_plus_tip_per_person func should return correct value"
     
-def test_fahrenheit_to_celcius():
-    """
-    Check that running your code should calculate fahrenheit to celcius"
-    """
-    assert simple_python_data.fahrenheit_to_celcius(32) == 0, "Your fahrenheit_to_celcius func should return correct value"
-    assert simple_python_data.fahrenheit_to_celcius(50) == 10, "Your fahrenheit_to_celcius func should return correct value"
     
 def test_fahrenheit_to_celcius():
     """
@@ -35,7 +29,7 @@ def test_fahrenheit_to_celcius():
     assert simple_python_data.fahrenheit_to_celcius(32) == 0, "Your fahrenheit_to_celcius func should return correct value"
     assert simple_python_data.fahrenheit_to_celcius(50) == 10, "Your fahrenheit_to_celcius func should return correct value"
     
-def test_fahrenheit_to_celcius():
+def test_calculate_the_remainder():
     """
     Check that running your code should return a correct remainder"
     """
