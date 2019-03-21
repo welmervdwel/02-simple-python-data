@@ -1,10 +1,5 @@
-# Hello, World!
+# Simple Python Data!
 
-It is traditional when learning a new programming language to have the computer greet you. Our first program will just output "Hello, world!" and nothing else.
+In this section we will go over manipulating data in Python
 
-Open up hello.py and edit it to contain
-
-```python
-print("Hello, world!")
-```
-
+Open up simple_python_data.py and edit it to complete the calculations correctly.
